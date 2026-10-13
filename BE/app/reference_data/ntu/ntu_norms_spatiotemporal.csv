@@ -1,0 +1,6 @@
+﻿parameter,mean,sd,median,q25,q75,min,max,n,source,population
+gait_speed_ms,1.6965,0.3537,1.6343,1.4493,1.8266,1.0812,2.9749,69,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"
+cadence_steps_min,70.8174,13.4355,67.575,63.5125,70.775,55.91,118.81,70,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"
+stride_length_m,1.4541,0.1666,1.4373,1.3454,1.5709,1.0458,1.9704,69,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"
+cycle_time_s,0.8777,0.1197,0.8879,0.8492,0.9447,0.505,1.0733,70,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"
+stance_pct,66.6301,3.9441,67.4533,64.67,69.9175,57.74,70.3033,11,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"

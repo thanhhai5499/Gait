@@ -1,0 +1,9 @@
+﻿joint,parameter,mean,sd,median,q25,q75,n,source,population
+knee,peak_flexion_deg,50.58,9.74,53.42,48.86,57.14,70,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"
+knee,peak_ext_deg,5.78,2.98,5.75,3.4,8.0,70,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"
+knee,stance_min_deg,6.6,3.57,6.58,3.87,9.15,70,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"
+knee,ROM_deg,44.8,10.57,47.2,40.71,51.38,70,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"
+hip,peak_flexion_deg,12.51,8.89,15.01,9.24,17.9,70,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"
+hip,peak_ext_deg,-17.98,7.98,-17.09,-24.74,-13.04,70,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"
+hip,stance_min_deg,-16.72,8.87,-15.71,-24.74,-10.05,70,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"
+hip,ROM_deg,30.49,14.21,35.13,24.68,40.77,70,NTU Dataset 2026 — Roberts et al. Sci Data,"Southeast Asian, 50–80 years, Singapore"

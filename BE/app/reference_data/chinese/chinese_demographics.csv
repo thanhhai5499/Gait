@@ -1,0 +1,13 @@
+group,n,parameter,unit,mean,sd,source
+total,171,age,years,24.63,2.19,Yu JS et al. 2023 — Table 2
+total,171,height,m,1.68,0.08,Yu JS et al. 2023 — Table 2
+total,171,weight,kg,58.59,10.06,Yu JS et al. 2023 — Table 2
+total,171,bmi,kg/m^2,20.64,2.16,Yu JS et al. 2023 — Table 2
+men,70,age,years,24.81,2.19,Yu JS et al. 2023 — Table 2
+men,70,height,m,1.75,0.05,Yu JS et al. 2023 — Table 2
+men,70,weight,kg,67.90,7.93,Yu JS et al. 2023 — Table 2
+men,70,bmi,kg/m^2,21.87,1.86,Yu JS et al. 2023 — Table 2
+women,101,age,years,24.50,2.18,Yu JS et al. 2023 — Table 2
+women,101,height,m,1.62,0.00,Yu JS et al. 2023 — Table 2
+women,101,weight,kg,52.14,5.10,Yu JS et al. 2023 — Table 2
+women,101,bmi,kg/m^2,19.72,1.89,Yu JS et al. 2023 — Table 2

@@ -1,0 +1,23 @@
+joint,plane,parameter,region_start_pct,region_end_pct,p_value,note,source
+hip,sagittal,flexion_extension,0,13,0.030,Significant sex difference (M vs F) in early stance,Yu JS et al. 2023
+hip,sagittal,flexion_extension,75,100,0.007,Significant sex difference in terminal swing,Yu JS et al. 2023
+hip,frontal,adduction_abduction,4,21,0.015,Significant sex difference in loading response and mid-stance,Yu JS et al. 2023
+hip,frontal,adduction_abduction,57,66,0.034,Significant sex difference in pre-swing,Yu JS et al. 2023
+hip,frontal,adduction_abduction,86,91,0.043,Significant sex difference in terminal swing,Yu JS et al. 2023
+hip,transverse,internal_external_rotation,78,100,0.009,Female greater internal rotation than male in terminal swing,Yu JS et al. 2023
+hip,sagittal,extensor_moment,67,77,<0.001,Significant sex difference in pre-swing,Yu JS et al. 2023
+hip,sagittal,power,68,77,<0.001,Significant sex difference in power generation pre-swing,Yu JS et al. 2023
+hip,frontal,abductor_moment,0,100,NS,No significant sex differences detected,Yu JS et al. 2023
+knee,sagittal,flexion_extension,0,100,<0.001,Significant sex difference across entire gait cycle,Yu JS et al. 2023
+knee,frontal,adduction,0,100,NS,No significant sex differences detected,Yu JS et al. 2023
+knee,transverse,rotation,90,97,0.028,Significant sex difference in terminal swing,Yu JS et al. 2023
+knee,sagittal,extensor_moment,0,100,NS,No significant sex differences detected,Yu JS et al. 2023
+knee,frontal,valgus_moment,55,65,0.018,Significant sex difference (interval 1),Yu JS et al. 2023
+knee,frontal,valgus_moment,90,100,0.046,Significant sex difference (interval 2),Yu JS et al. 2023
+knee,sagittal,power,0,100,NS,No significant sex differences detected,Yu JS et al. 2023
+ankle,sagittal,plantarflexion_dorsiflexion,0,100,NS,No significant sex differences detected,Yu JS et al. 2023
+ankle,frontal,inversion_eversion,0,100,NS,No significant sex differences detected,Yu JS et al. 2023
+ankle,sagittal,plantarflexor_moment,0,100,NS,No significant sex differences detected,Yu JS et al. 2023
+ankle,frontal,eversion_moment,0,5,<0.001,Significant sex difference at initial contact,Yu JS et al. 2023
+ankle,frontal,eversion_moment,58,62,0.013,Significant sex difference in late stance,Yu JS et al. 2023
+ankle,sagittal,power,0,100,NS,No significant sex differences detected,Yu JS et al. 2023

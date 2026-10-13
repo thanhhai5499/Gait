@@ -1,0 +1,47 @@
+
+
+# Jetson-specific requirements (JetPack / ARM64)
+# Usage on Jetson:
+#   pip install -r requirements.jetson.txt
+#
+# Key differences from requirements.txt:
+#   - opencv-python is OMITTED: JetPack ships OpenCV built with CUDA.
+#     Installing opencv-python from PyPI would overwrite it with a CPU-only build.
+#   - pyrealsense2 is OMITTED: no ARM64 wheel on PyPI. Build from source:
+#     https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md
+
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Database ORM
+sqlalchemy==2.0.36
+
+# Migration
+alembic==1.14.0
+
+# PostgreSQL driver
+psycopg2-binary==2.9.10
+
+# Settings / env
+pydantic-settings==2.6.1
+pydantic[email]==2.10.1
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.12
+
+# Serial port
+pyserial==3.5
+
+# Data analysis
+numpy==2.1.3
+
+# HTTP
+httpx==0.27.2
+
+# Dev / testing
+pytest==8.3.3
+pytest-asyncio==0.24.0

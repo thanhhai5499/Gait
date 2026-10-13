@@ -1,0 +1,253 @@
+sex,age_group,n,parameter,label,unit,mean,sd
+men,21-30,28,height,Height,cm,172.63,6.73
+men,21-30,28,gait_speed,Gait speed,cm/s,114.47,15.44
+men,21-30,28,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.66,0.08
+men,21-30,28,step_length,Step length,cm,62.95,6.42
+men,21-30,28,step_length_adj_height,Height-adjusted step length,ratio,0.36,0.03
+men,21-30,28,step_width,Step width,cm,64.39,6.14
+men,21-30,28,step_width_adj_height,Height-adjusted step width,ratio,0.37,0.03
+men,21-30,28,stride_width,Stride width,cm,11.05,3.75
+men,21-30,28,feet_external_rotation,Feet external rotation,deg,4.44,5.98
+men,21-30,28,stance_pct,Stance time (% gait cycle),pct,61.54,1.17
+men,21-30,28,single_support_time,Single support time,s,0.43,0.03
+men,21-30,28,double_support_time,Double support time,s,0.26,0.04
+men,21-30,28,cadence,Cadence,steps/min,109,8
+men,21-30,28,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1430,111
+men,31-40,26,height,Height,cm,170.04,5.03
+men,31-40,26,gait_speed,Gait speed,cm/s,111.77,18.66
+men,31-40,26,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.66,0.11
+men,31-40,26,step_length,Step length,cm,60.96,7.06
+men,31-40,26,step_length_adj_height,Height-adjusted step length,ratio,0.36,0.04
+men,31-40,26,step_width,Step width,cm,62.62,6.83
+men,31-40,26,step_width_adj_height,Height-adjusted step width,ratio,0.37,0.04
+men,31-40,26,stride_width,Stride width,cm,10.80,3.05
+men,31-40,26,feet_external_rotation,Feet external rotation,deg,8.88,5.08
+men,31-40,26,stance_pct,Stance time (% gait cycle),pct,62.14,1.56
+men,31-40,26,single_support_time,Single support time,s,0.42,0.02
+men,31-40,26,double_support_time,Double support time,s,0.27,0.05
+men,31-40,26,cadence,Cadence,steps/min,109,9
+men,31-40,26,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1427,110
+men,41-50,20,height,Height,cm,167.68,6.34
+men,41-50,20,gait_speed,Gait speed,cm/s,113.76,15.69
+men,41-50,20,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.68,0.10
+men,41-50,20,step_length,Step length,cm,61.35,6.09
+men,41-50,20,step_length_adj_height,Height-adjusted step length,ratio,0.37,0.04
+men,41-50,20,step_width,Step width,cm,63.05,5.60
+men,41-50,20,step_width_adj_height,Height-adjusted step width,ratio,0.38,0.03
+men,41-50,20,stride_width,Stride width,cm,11.43,2.57
+men,41-50,20,feet_external_rotation,Feet external rotation,deg,7.86,5.90
+men,41-50,20,stance_pct,Stance time (% gait cycle),pct,62.03,1.48
+men,41-50,20,single_support_time,Single support time,s,0.41,0.02
+men,41-50,20,double_support_time,Double support time,s,0.26,0.04
+men,41-50,20,cadence,Cadence,steps/min,111,7
+men,41-50,20,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1436,90
+men,51-60,20,height,Height,cm,169.26,7.16
+men,51-60,20,gait_speed,Gait speed,cm/s,113.95,18.31
+men,51-60,20,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.67,0.10
+men,51-60,20,step_length,Step length,cm,61.16,7.69
+men,51-60,20,step_length_adj_height,Height-adjusted step length,ratio,0.36,0.04
+men,51-60,20,step_width,Step width,cm,62.62,7.33
+men,51-60,20,step_width_adj_height,Height-adjusted step width,ratio,0.37,0.03
+men,51-60,20,stride_width,Stride width,cm,10.13,2.93
+men,51-60,20,feet_external_rotation,Feet external rotation,deg,7.96,4.96
+men,51-60,20,stance_pct,Stance time (% gait cycle),pct,61.23,1.20
+men,51-60,20,single_support_time,Single support time,s,0.42,0.02
+men,51-60,20,double_support_time,Double support time,s,0.25,0.04
+men,51-60,20,cadence,Cadence,steps/min,111,7
+men,51-60,20,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1449,97
+men,61-65,29,height,Height,cm,166.20,5.77
+men,61-65,29,gait_speed,Gait speed,cm/s,111.88,18.67
+men,61-65,29,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.67,0.12
+men,61-65,29,step_length,Step length,cm,60.63,7.86
+men,61-65,29,step_length_adj_height,Height-adjusted step length,ratio,0.36,0.05
+men,61-65,29,step_width,Step width,cm,62.27,7.28
+men,61-65,29,step_width_adj_height,Height-adjusted step width,ratio,0.37,0.04
+men,61-65,29,stride_width,Stride width,cm,10.55,3.55
+men,61-65,29,feet_external_rotation,Feet external rotation,deg,8.28,5.27
+men,61-65,29,stance_pct,Stance time (% gait cycle),pct,61.33,1.64
+men,61-65,29,single_support_time,Single support time,s,0.42,0.03
+men,61-65,29,double_support_time,Double support time,s,0.25,0.05
+men,61-65,29,cadence,Cadence,steps/min,110,8
+men,61-65,29,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1421,98
+men,66-70,23,height,Height,cm,165.73,4.69
+men,66-70,23,gait_speed,Gait speed,cm/s,111.29,17.03
+men,66-70,23,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.67,0.11
+men,66-70,23,step_length,Step length,cm,59.73,5.99
+men,66-70,23,step_length_adj_height,Height-adjusted step length,ratio,0.36,0.04
+men,66-70,23,step_width,Step width,cm,61.03,5.76
+men,66-70,23,step_width_adj_height,Height-adjusted step width,ratio,0.37,0.04
+men,66-70,23,stride_width,Stride width,cm,9.31,2.19
+men,66-70,23,feet_external_rotation,Feet external rotation,deg,8.78,7.19
+men,66-70,23,stance_pct,Stance time (% gait cycle),pct,61.51,1.35
+men,66-70,23,single_support_time,Single support time,s,0.42,0.03
+men,66-70,23,double_support_time,Double support time,s,0.25,0.05
+men,66-70,23,cadence,Cadence,steps/min,111,11
+men,66-70,23,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1435,142
+men,71-75,29,height,Height,cm,164.52,6.23
+men,71-75,29,gait_speed,Gait speed,cm/s,99.00,14.68
+men,71-75,29,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.60,0.09
+men,71-75,29,step_length,Step length,cm,54.15,6.84
+men,71-75,29,step_length_adj_height,Height-adjusted step length,ratio,0.33,0.04
+men,71-75,29,step_width,Step width,cm,55.84,6.48
+men,71-75,29,step_width_adj_height,Height-adjusted step width,ratio,0.34,0.04
+men,71-75,29,stride_width,Stride width,cm,10.19,2.76
+men,71-75,29,feet_external_rotation,Feet external rotation,deg,9.57,6.52
+men,71-75,29,stance_pct,Stance time (% gait cycle),pct,62.39,1.52
+men,71-75,29,single_support_time,Single support time,s,0.41,0.03
+men,71-75,29,double_support_time,Double support time,s,0.27,0.05
+men,71-75,29,cadence,Cadence,steps/min,110,9
+men,71-75,29,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1406,116
+men,76-80,24,height,Height,cm,162.60,7.06
+men,76-80,24,gait_speed,Gait speed,cm/s,97.92,19.10
+men,76-80,24,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.60,0.12
+men,76-80,24,step_length,Step length,cm,51.34,7.58
+men,76-80,24,step_length_adj_height,Height-adjusted step length,ratio,0.32,0.05
+men,76-80,24,step_width,Step width,cm,53.36,6.91
+men,76-80,24,step_width_adj_height,Height-adjusted step width,ratio,0.33,0.04
+men,76-80,24,stride_width,Stride width,cm,10.92,2.67
+men,76-80,24,feet_external_rotation,Feet external rotation,deg,9.98,7.24
+men,76-80,24,stance_pct,Stance time (% gait cycle),pct,62.97,2.05
+men,76-80,24,single_support_time,Single support time,s,0.39,0.04
+men,76-80,24,double_support_time,Double support time,s,0.28,0.07
+men,76-80,24,cadence,Cadence,steps/min,114,11
+men,76-80,24,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1452,136
+men,81+,22,height,Height,cm,162.16,6.89
+men,81+,22,gait_speed,Gait speed,cm/s,83.05,21.86
+men,81+,22,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.51,0.13
+men,81+,22,step_length,Step length,cm,45.35,12.22
+men,81+,22,step_length_adj_height,Height-adjusted step length,ratio,0.28,0.07
+men,81+,22,step_width,Step width,cm,48.40,10.85
+men,81+,22,step_width_adj_height,Height-adjusted step width,ratio,0.30,0.06
+men,81+,22,stride_width,Stride width,cm,12.48,3.43
+men,81+,22,feet_external_rotation,Feet external rotation,deg,11.36,5.90
+men,81+,22,stance_pct,Stance time (% gait cycle),pct,63.79,3.04
+men,81+,22,single_support_time,Single support time,s,0.40,0.06
+men,81+,22,double_support_time,Double support time,s,0.30,0.08
+men,81+,22,cadence,Cadence,steps/min,111,14
+men,81+,22,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1408,169
+women,21-30,32,height,Height,cm,160.38,5.44
+women,21-30,32,gait_speed,Gait speed,cm/s,113.81,17.66
+women,21-30,32,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.71,0.11
+women,21-30,32,step_length,Step length,cm,59.67,5.96
+women,21-30,32,step_length_adj_height,Height-adjusted step length,ratio,0.37,0.03
+women,21-30,32,step_width,Step width,cm,60.66,5.92
+women,21-30,32,step_width_adj_height,Height-adjusted step width,ratio,0.38,0.03
+women,21-30,32,stride_width,Stride width,cm,9.97,2.46
+women,21-30,32,feet_external_rotation,Feet external rotation,deg,0.49,5.43
+women,21-30,32,stance_pct,Stance time (% gait cycle),pct,60.98,1.40
+women,21-30,32,single_support_time,Single support time,s,0.42,0.04
+women,21-30,32,double_support_time,Double support time,s,0.24,0.07
+women,21-30,32,cadence,Cadence,steps/min,114,12
+women,21-30,32,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1442,144
+women,31-40,34,height,Height,cm,158.52,5.55
+women,31-40,34,gait_speed,Gait speed,cm/s,113.79,13.20
+women,31-40,34,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.72,0.08
+women,31-40,34,step_length,Step length,cm,59.53,4.45
+women,31-40,34,step_length_adj_height,Height-adjusted step length,ratio,0.38,0.02
+women,31-40,34,step_width,Step width,cm,60.67,4.47
+women,31-40,34,step_width_adj_height,Height-adjusted step width,ratio,0.38,0.02
+women,31-40,34,stride_width,Stride width,cm,9.80,2.90
+women,31-40,34,feet_external_rotation,Feet external rotation,deg,3.55,4.19
+women,31-40,34,stance_pct,Stance time (% gait cycle),pct,61.14,1.60
+women,31-40,34,single_support_time,Single support time,s,0.41,0.02
+women,31-40,34,double_support_time,Double support time,s,0.24,0.05
+women,31-40,34,cadence,Cadence,steps/min,114,7
+women,31-40,34,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1440,93
+women,41-50,40,height,Height,cm,157.09,6.70
+women,41-50,40,gait_speed,Gait speed,cm/s,117.21,19.83
+women,41-50,40,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.75,0.13
+women,41-50,40,step_length,Step length,cm,58.84,5.67
+women,41-50,40,step_length_adj_height,Height-adjusted step length,ratio,0.37,0.03
+women,41-50,40,step_width,Step width,cm,59.83,5.49
+women,41-50,40,step_width_adj_height,Height-adjusted step width,ratio,0.38,0.03
+women,41-50,40,stride_width,Stride width,cm,9.09,2.37
+women,41-50,40,feet_external_rotation,Feet external rotation,deg,3.39,5.44
+women,41-50,40,stance_pct,Stance time (% gait cycle),pct,61.31,1.74
+women,41-50,40,single_support_time,Single support time,s,0.39,0.03
+women,41-50,40,double_support_time,Double support time,s,0.23,0.06
+women,41-50,40,cadence,Cadence,steps/min,119,13
+women,41-50,40,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1490,157
+women,51-60,37,height,Height,cm,156.92,5.60
+women,51-60,37,gait_speed,Gait speed,cm/s,113.90,16.07
+women,51-60,37,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.73,0.10
+women,51-60,37,step_length,Step length,cm,57.95,5.48
+women,51-60,37,step_length_adj_height,Height-adjusted step length,ratio,0.37,0.03
+women,51-60,37,step_width,Step width,cm,59.07,5.48
+women,51-60,37,step_width_adj_height,Height-adjusted step width,ratio,0.38,0.03
+women,51-60,37,stride_width,Stride width,cm,9.10,2.61
+women,51-60,37,feet_external_rotation,Feet external rotation,deg,5.95,4.65
+women,51-60,37,stance_pct,Stance time (% gait cycle),pct,61.58,1.49
+women,51-60,37,single_support_time,Single support time,s,0.39,0.02
+women,51-60,37,double_support_time,Double support time,s,0.24,0.04
+women,51-60,37,cadence,Cadence,steps/min,117,8
+women,51-60,37,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1470,98
+women,61-65,29,height,Height,cm,155.51,4.90
+women,61-65,29,gait_speed,Gait speed,cm/s,108.25,14.29
+women,61-65,29,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.70,0.09
+women,61-65,29,step_length,Step length,cm,56.87,5.35
+women,61-65,29,step_length_adj_height,Height-adjusted step length,ratio,0.37,0.03
+women,61-65,29,step_width,Step width,cm,58.03,5.12
+women,61-65,29,step_width_adj_height,Height-adjusted step width,ratio,0.37,0.03
+women,61-65,29,stride_width,Stride width,cm,9.23,2.62
+women,61-65,29,feet_external_rotation,Feet external rotation,deg,4.84,5.68
+women,61-65,29,stance_pct,Stance time (% gait cycle),pct,61.73,1.45
+women,61-65,29,single_support_time,Single support time,s,0.40,0.03
+women,61-65,29,double_support_time,Double support time,s,0.25,0.05
+women,61-65,29,cadence,Cadence,steps/min,114,9
+women,61-65,29,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1421,108
+women,66-70,29,height,Height,cm,153.63,4.99
+women,66-70,29,gait_speed,Gait speed,cm/s,108.55,14.68
+women,66-70,29,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.71,0.10
+women,66-70,29,step_length,Step length,cm,55.13,4.23
+women,66-70,29,step_length_adj_height,Height-adjusted step length,ratio,0.36,0.02
+women,66-70,29,step_width,Step width,cm,56.03,4.06
+women,66-70,29,step_width_adj_height,Height-adjusted step width,ratio,0.36,0.02
+women,66-70,29,stride_width,Stride width,cm,7.98,2.58
+women,66-70,29,feet_external_rotation,Feet external rotation,deg,4.63,6.47
+women,66-70,29,stance_pct,Stance time (% gait cycle),pct,61.81,1.37
+women,66-70,29,single_support_time,Single support time,s,0.39,0.03
+women,66-70,29,double_support_time,Double support time,s,0.24,0.05
+women,66-70,29,cadence,Cadence,steps/min,118,12
+women,66-70,29,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1460,138
+women,71-75,29,height,Height,cm,153.34,4.95
+women,71-75,29,gait_speed,Gait speed,cm/s,100.92,13.53
+women,71-75,29,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.66,0.09
+women,71-75,29,step_length,Step length,cm,52.54,5.41
+women,71-75,29,step_length_adj_height,Height-adjusted step length,ratio,0.34,0.03
+women,71-75,29,step_width,Step width,cm,53.73,5.03
+women,71-75,29,step_width_adj_height,Height-adjusted step width,ratio,0.35,0.03
+women,71-75,29,stride_width,Stride width,cm,8.89,2.39
+women,71-75,29,feet_external_rotation,Feet external rotation,deg,6.08,4.78
+women,71-75,29,stance_pct,Stance time (% gait cycle),pct,61.57,1.38
+women,71-75,29,single_support_time,Single support time,s,0.40,0.03
+women,71-75,29,double_support_time,Double support time,s,0.24,0.04
+women,71-75,29,cadence,Cadence,steps/min,115,10
+women,71-75,29,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1424,113
+women,76-80,28,height,Height,cm,150.95,5.75
+women,76-80,28,gait_speed,Gait speed,cm/s,89.02,17.51
+women,76-80,28,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.59,0.11
+women,76-80,28,step_length,Step length,cm,47.87,7.67
+women,76-80,28,step_length_adj_height,Height-adjusted step length,ratio,0.32,0.05
+women,76-80,28,step_width,Step width,cm,49.50,6.88
+women,76-80,28,step_width_adj_height,Height-adjusted step width,ratio,0.33,0.04
+women,76-80,28,stride_width,Stride width,cm,9.72,2.99
+women,76-80,28,feet_external_rotation,Feet external rotation,deg,6.39,5.96
+women,76-80,28,stance_pct,Stance time (% gait cycle),pct,63.41,2.42
+women,76-80,28,single_support_time,Single support time,s,0.40,0.03
+women,76-80,28,double_support_time,Double support time,s,0.29,0.08
+women,76-80,28,cadence,Cadence,steps/min,111,11
+women,76-80,28,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1367,130
+women,81+,28,height,Height,cm,148.33,4.19
+women,81+,28,gait_speed,Gait speed,cm/s,84.47,13.75
+women,81+,28,gait_speed_adj_height,Height-adjusted gait speed,1/s,0.58,0.10
+women,81+,28,step_length,Step length,cm,46.39,4.96
+women,81+,28,step_length_adj_height,Height-adjusted step length,ratio,0.31,0.04
+women,81+,28,step_width,Step width,cm,48.23,4.67
+women,81+,28,step_width_adj_height,Height-adjusted step width,ratio,0.33,0.03
+women,81+,28,stride_width,Stride width,cm,10.66,2.71
+women,81+,28,feet_external_rotation,Feet external rotation,deg,6.93,5.73
+women,81+,28,stance_pct,Stance time (% gait cycle),pct,63.09,2.21
+women,81+,28,single_support_time,Single support time,s,0.40,0.04
+women,81+,28,double_support_time,Double support time,s,0.29,0.08
+women,81+,28,cadence,Cadence,steps/min,112,13
+women,81+,28,cadence_adj_height,Height-adjusted cadence,steps/min*sqrt(cm),1359,154

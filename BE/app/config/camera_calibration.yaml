@@ -1,0 +1,35 @@
+# Camera calibration parameters for Gait Analysis system
+# Measure and update these values before clinical use.
+#
+# pixel_per_cm:
+#   null  → computed automatically from height/distance/focal_length
+#   float → override with measured value (e.g. from POST /api/calibration/test)
+#
+# tilt_deg: positive = camera tilted downward
+# pan_deg:  positive = camera rotated clockwise when viewed from above
+
+cameras:
+  lateral:
+    height_cm: 90         # camera height above floor
+    distance_cm: 250      # horizontal distance to treadmill centre
+    tilt_deg: 0           # vertical tilt (0 = level)
+    pan_deg: 0            # horizontal pan (0 = perpendicular to walking direction)
+    pixel_per_cm: null    # auto-computed; override with measured value if known
+
+  frontal:
+    height_cm: 100
+    distance_cm: 200
+    tilt_deg: 0
+    pan_deg: 0
+    pixel_per_cm: null
+
+  posterior:
+    height_cm: 100
+    distance_cm: 200
+    tilt_deg: 0
+    pan_deg: 0
+    pixel_per_cm: null
+
+treadmill:
+  width_cm: 50            # belt width — used as reference scale for frontal/posterior
+  belt_speed_kmh: null    # set if treadmill speed is known (helps estimate step length)

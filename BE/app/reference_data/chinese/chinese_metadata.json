@@ -1,0 +1,41 @@
+{
+  "dataset_role": "spatiotemporal + kinematic reference for young adults (18-35 years), Asian anthropometry",
+  "source": "Yu JS, Zhuang C, Guo WX, et al. (2023). Reference values of gait parameters in healthy Chinese university students: A cross-sectional observational study. World J Clin Cases, 11(29), 7061-7074.",
+  "doi": "10.12998/wjcc.v11.i29.7061",
+  "pmc_id": "PMC10631401",
+  "population": "Han Chinese university students; 18-35 years; BMI 18.5-23.9",
+  "n_total": 171,
+  "n_men": 70,
+  "n_women": 101,
+  "device": "Qualisys Track Manager 3D motion capture (8x Oqus700+, 1100 Hz) + 4x Kistler 9260AA force plates",
+  "model": "Calibrated Anatomical System Technique (Cappozzo 1995); 32 reflective markers",
+  "protocol": "Habitual walking pace, preferred speed, 3 best gait cycles averaged; full SPM analysis on 0-100% cycle",
+  "primary_outputs": [
+    "chinese_norms_spatiotemporal.csv",
+    "chinese_demographics.csv",
+    "chinese_kinematics_regions.csv"
+  ],
+  "parameters_spatiotemporal": [
+    {"key": "cadence",                  "unit": "steps/min",          "label": "Cadence"},
+    {"key": "cadence_adj_height",       "unit": "steps/min*sqrt(m)",  "label": "Height-adjusted cadence (note: height in m, not cm as in Yishun)"},
+    {"key": "gait_speed",               "unit": "m/s",                "label": "Gait speed"},
+    {"key": "gait_speed_adj_height",    "unit": "1/s",                "label": "Height-adjusted gait speed"},
+    {"key": "step_length",              "unit": "m",                  "label": "Step length"},
+    {"key": "step_length_adj_height",   "unit": "ratio",              "label": "Height-adjusted step length"},
+    {"key": "stride_length",            "unit": "m",                  "label": "Stride length"},
+    {"key": "stride_length_adj_height", "unit": "ratio",              "label": "Height-adjusted stride length"},
+    {"key": "stride_width",             "unit": "m",                  "label": "Stride width"},
+    {"key": "stride_width_adj_height",  "unit": "ratio",              "label": "Height-adjusted stride width"},
+    {"key": "cycle_time",               "unit": "s",                  "label": "Cycle time"},
+    {"key": "double_support_time",      "unit": "s",                  "label": "Double limb support time"},
+    {"key": "stance_pct",               "unit": "pct",                "label": "Stance time (% gait cycle)"},
+    {"key": "swing_pct",                "unit": "pct",                "label": "Swing time (% gait cycle)"},
+    {"key": "statures_per_second",      "unit": "1/s",                "label": "Statures per second"},
+    {"key": "stride_time",              "unit": "s",                  "label": "Stride time"},
+    {"key": "stride_per_minute",        "unit": "strides/min",        "label": "Stride per minute"}
+  ],
+  "unit_warning": "Yu et al. report length in METERS (m) and speed in m/s, whereas Yishun reports in CM and cm/s. When cross-comparing or feeding into a unified pipeline, convert with: gait_speed_cm_per_s = gait_speed_m_per_s * 100; step_length_cm = step_length_m * 100.",
+  "stance_swing_unit_note": "Source paper reports stance/swing as FRACTION of gait cycle (e.g. 0.65); stored here multiplied by 100 (pct) for consistency with Yishun. SD values also multiplied by 100. Stance + swing > 100 because of double support overlap (per single leg).",
+  "kinematics_limitation": "The source paper presents kinematics as SPM curves (figures), not scalar peak/mean/sd values. The kinematics_regions.csv documents only the *regions of statistically significant sex difference* found via SPM, NOT the underlying mean/sd curves needed for Z-score. For waveform comparison, use ntu_output/ instead.",
+  "applicability_in_project": "Use this dataset for patients aged 18-35 only. For age 50-80 patients, NTU dataset is the better kinematics reference. For habitual spatiotemporal across all ages, Yishun Study is primary."
+}

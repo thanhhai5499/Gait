@@ -1,0 +1,45 @@
+{
+  "dataset_role": "primary spatiotemporal reference for clinical gait assessment",
+  "source": "Lau LK, Wee SL, Pang WJB, et al. (2020). Reference Values of Gait Speed and Gait Spatiotemporal Parameters for a South East Asian Population: The Yishun Study. Clin Interv Aging, 15, 1753-1765.",
+  "doi": "10.2147/CIA.S270407",
+  "population": "Southeast Asian, Singapore (Chinese 80.6%, Malay 8.9%, Indian 7.3%, Others 3.0%); adults 21-90 years",
+  "n_total": 507,
+  "n_men": 221,
+  "n_women": 286,
+  "device": "GAITRite 6m walkway (CIR Systems USA), 120 Hz",
+  "protocol": "Habitual walking pace, barefoot, 3 trials averaged; 1 m acceleration/deceleration buffer before/after sensor mats",
+  "age_groups": ["21-30", "31-40", "41-50", "51-60", "61-65", "66-70", "71-75", "76-80", "81+"],
+  "primary_outputs": [
+    "yishun_norms_overall.csv",
+    "yishun_norms_by_age.csv"
+  ],
+  "parameters": [
+    {"key": "height",                  "unit": "cm",                  "label": "Height"},
+    {"key": "gait_speed",               "unit": "cm/s",                "label": "Gait speed"},
+    {"key": "gait_speed_adj_height",    "unit": "1/s",                 "label": "Height-adjusted gait speed"},
+    {"key": "step_length",              "unit": "cm",                  "label": "Step length"},
+    {"key": "step_length_adj_height",   "unit": "ratio",               "label": "Height-adjusted step length"},
+    {"key": "step_width",               "unit": "cm",                  "label": "Step width"},
+    {"key": "step_width_adj_height",    "unit": "ratio",               "label": "Height-adjusted step width"},
+    {"key": "stride_width",             "unit": "cm",                  "label": "Stride width"},
+    {"key": "feet_external_rotation",   "unit": "deg",                 "label": "Feet external rotation"},
+    {"key": "stance_pct",               "unit": "pct",                 "label": "Stance time (% gait cycle)"},
+    {"key": "single_support_time",      "unit": "s",                   "label": "Single support time"},
+    {"key": "double_support_time",      "unit": "s",                   "label": "Double support time"},
+    {"key": "cadence",                  "unit": "steps/min",           "label": "Cadence"},
+    {"key": "cadence_adj_height",       "unit": "steps/min*sqrt(cm)",  "label": "Height-adjusted cadence"}
+  ],
+  "height_normalization": {
+    "gait_speed_adj_height":  "gait_speed (cm/s) / height (cm)",
+    "step_length_adj_height": "step_length (cm) / height (cm)",
+    "step_width_adj_height":  "step_width (cm) / height (cm)",
+    "cadence_adj_height":     "cadence (steps/min) * sqrt(height (cm))",
+    "note": "See 'Data Analysis' in the source paper."
+  },
+  "clinical_threshold_note": "AWGS 2019 recommends gait_speed < 1.0 m/s (100 cm/s) for sarcopenia screening; Yishun authors found lowest quintile at 0.9 m/s in their multi-ethnic Southeast Asian sample.",
+  "unit_conversion_helpers": {
+    "gait_speed_cm_s_to_m_s": "divide by 100",
+    "step_length_cm_to_m":    "divide by 100",
+    "stride_width_cm_to_m":   "divide by 100"
+  }
+}

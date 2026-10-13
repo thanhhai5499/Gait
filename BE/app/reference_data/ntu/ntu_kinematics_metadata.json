@@ -1,0 +1,21 @@
+{
+  "dataset_role": "primary kinematic reference for hip/knee angles and waveform corridors",
+  "source": "DR-NTU Dataverse / Roberts et al. Scientific Data 2026",
+  "population": "Southeast Asian, Singapore, age 50-80",
+  "primary_outputs": [
+    "ntu_norms_joint_angles.csv",
+    "ntu_waveform_knee.npy",
+    "ntu_waveform_hip.npy",
+    "ntu_waveform_knee.png",
+    "ntu_waveform_hip.png"
+  ],
+  "angle_convention": {
+    "knee": "clinical flexion in degrees, calculated as 180 - hip-knee-ankle internal angle",
+    "hip": "sagittal thigh angle relative to vertical; flexion positive, extension negative"
+  },
+  "cycle_filter_seconds": [
+    0.5,
+    2.5
+  ],
+  "spatiotemporal_note": "NTU spatiotemporal output is exploratory only; use Yishun Study as the main clinical reference for speed, cadence, stride length, stance percent, and step width."
+}

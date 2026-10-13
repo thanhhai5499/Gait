@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large AI Model Files / Weights (>100MB, excluded from Git)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.caffemodel
+*.weights
+*.bin
+
+# Output folders (reference data is maintained in BE/app/reference_data)
+chinese_students_output/
+ntu_output/
+yishun_output/
+
+# Frontend builds & dependencies
+node_modules/
+FE/dist/
+.npm
+npm-debug.log*
+yarn-debug.log*
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing & logs
+.pytest_cache/
+.coverage
+htmlcov/
+probe_err.txt
+probe_out.txt
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,77 @@
+name: gait
+
+services:
+
+  # ─────────────────────────────
+  # PostgreSQL Database
+  # ─────────────────────────────
+  db:
+    image: postgres:18-alpine
+    container_name: gait_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: GaitDB
+      POSTGRES_USER: gait_user
+      POSTGRES_PASSWORD: "050499"
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gait_user -d GaitDB"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # ─────────────────────────────
+  # FastAPI Backend
+  # ─────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gait_api:latest
+    container_name: gait_api
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql://gait_user:050499@db:5432/GaitDB
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./app:/app/app
+    # ── Camera device passthrough (Linux / Jetson) ──────────────────────────
+    # Expose USB cameras (/dev/video*) and grant RealSense USB access.
+    # On Windows with Docker Desktop these lines are ignored safely.
+    devices:
+      - /dev/video0:/dev/video0
+      - /dev/video1:/dev/video1
+      - /dev/video2:/dev/video2
+      - /dev/video3:/dev/video3
+      - /dev/video4:/dev/video4
+    # privileged: true is required for RealSense USB access on Linux.
+    # Remove if not using RealSense to reduce container permissions.
+    privileged: true
+
+  # ─────────────────────────────
+  # pgAdmin — quản lý DB qua trình duyệt
+  # ─────────────────────────────
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: gait_pgadmin
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@gait.com
+      PGADMIN_DEFAULT_PASSWORD: "050499"
+    ports:
+      - "5050:80"
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
+    name: gait_postgres_data
