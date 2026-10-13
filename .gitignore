@@ -12,6 +12,17 @@ __pycache__/
 *.weights
 *.bin
 
+# Environment & Sensitive config files (keep .env.example)
+.env
+.env.local
+*.env
+*.env.*
+!.env.example
+
+# Local PowerShell & debug scripts
+*.ps1
+read_baseline.py
+
 # Output folders (reference data is maintained in BE/app/reference_data)
 chinese_students_output/
 ntu_output/
